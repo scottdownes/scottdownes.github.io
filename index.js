@@ -43,7 +43,7 @@ window.loadLeverJobs = function (options) {
   }
 
   // Adding the account name to the API URL
-  var url = 'https://api.lever.co/v0/postings/' + options.accountName + '?team=Engineering&team=Engineering%20-%20Automation&group=team&mode=json';
+  var url = 'https://api.lever.co/v0/postings/' + options.accountName + '?team=Engineering&team=Engineering%20-%20Agent&team=Engineering%20-%20Partner&group=team&mode=json';
 
   //Create an object ordered by department and team
   function createJobs(responseData) {
